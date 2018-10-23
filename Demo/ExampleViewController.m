@@ -68,25 +68,6 @@
     self.statuslabel.text = @"";
 }
 
-- (void)viewDidUnload
-{
-    [self.kenView stopAnimation];
-    [self setKenView:nil];
-    
-    [super viewDidUnload];
-}
-
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-	return YES;
-}
 
 #pragma mark - Actions
 
